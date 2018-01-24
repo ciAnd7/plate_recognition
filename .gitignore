@@ -25,3 +25,8 @@ train_neural_network/release
 
 samples/ANPRTool/ANPRTool.pro.user*
 
+####
+Makefile
+*.o
+.qmake.stash
+

@@ -41,3 +41,16 @@ Build with qmake
 1. In file "opencv.pri" set path to OpenCV.
 2. In file "opencv.pri" set version of OpenCV.
 3. In file "auto_test_desktop/main.cpp" hardcoded folder for test images for Android device.
+
+
+Debian Stretch Headless Build & Run
+=============================
+
+```
+# apt-get install sudo vim
+$ sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev libopencv-dev libtesseract-dev libleptonica-dev  liblog4cplus-dev libcurl3-dev 
+$ sudo apt-get install qt5-qmake qt5-default
+$ qmake ; make
+$ bin/release/auto_test_desktop -i ./test_data/Y900XA177.jpg 
+```
+

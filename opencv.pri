@@ -23,7 +23,7 @@ win32 {
 			-lopencv_imgproc$${OPENCV_VER}.dll \
 			-lopencv_legacy$${OPENCV_VER}.dll \
 			-lopencv_ml$${OPENCV_VER}.dll \
-			-lopencv_nonfree$${OPENCV_VER}.dll \
+#			-lopencv_nonfree$${OPENCV_VER}.dll \
 			-lopencv_objdetect$${OPENCV_VER}.dll \
 			-lopencv_photo$${OPENCV_VER}.dll \
 			-lopencv_stitching$${OPENCV_VER}.dll \
@@ -46,7 +46,7 @@ win32 {
 				opencv_imgproc$${OPENCV_VER}d.lib \
 				opencv_legacy$${OPENCV_VER}d.lib \
 				opencv_ml$${OPENCV_VER}d.lib \
-				opencv_nonfree$${OPENCV_VER}d.lib \
+#				opencv_nonfree$${OPENCV_VER}d.lib \
 				opencv_objdetect$${OPENCV_VER}d.lib \
 				opencv_photo$${OPENCV_VER}d.lib \
 				opencv_stitching$${OPENCV_VER}d.lib \
@@ -65,7 +65,7 @@ win32 {
 				opencv_imgproc$${OPENCV_VER}.lib \
 				opencv_legacy$${OPENCV_VER}.lib \
 				opencv_ml$${OPENCV_VER}.lib \
-				opencv_nonfree$${OPENCV_VER}.lib \
+#				opencv_nonfree$${OPENCV_VER}.lib \
 				opencv_objdetect$${OPENCV_VER}.lib \
 				opencv_photo$${OPENCV_VER}.lib \
 				opencv_stitching$${OPENCV_VER}.lib \
@@ -110,7 +110,7 @@ win32 {
 			-lopencv_imgproc \
 			-lopencv_legacy \
 			-lopencv_ml \
-			-lopencv_nonfree \
+#			-lopencv_nonfree \
 			-lopencv_objdetect \
 			-lopencv_photo \
 			-lopencv_stitching \

@@ -19,6 +19,8 @@ win32 {
 	LIBS += -L$${DESTDIR} \
 		-lplate_recog_lib
 } linux {
+	QT += widgets
+	CONFIG += console
 	LIBS += -L$${DESTDIR} \
 		-lplate_recog_lib
 }

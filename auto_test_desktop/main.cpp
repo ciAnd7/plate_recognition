@@ -68,8 +68,8 @@ private:
 		const QFileInfo fi( m_file_name );
 		const QString file_name_ext( fi.suffix() );
 		const QString file_number( fi.baseName() );
-		string number_to_out( "[" );
-		number_to_out += file_number.toLocal8Bit() + "](test_data/" + fi.fileName().toLocal8Bit() + ")";
+		std::string number_to_out;
+		number_to_out = "[" + file_number.toStdString() + "](test_data/" + fi.fileName().toStdString() + ")";
 		to_out_full << setw( 37 ) << setfill( ' ' ) << number_to_out << "|";
 		const cv::Mat image = cv::imread( m_file_name.toLocal8Bit().data(), CV_LOAD_IMAGE_COLOR );   // Read the file
 		stringstream size_stream;
